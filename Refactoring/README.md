@@ -130,3 +130,23 @@ Refactorings are widely recognised as ways to improve the internal structure of 
 
 Datasets: NA
 
+
+## 17) Revisiting the Relationship Between Code Smells and Refactoring:
+Refactoring is a critical technique in evolving soft- ware systems. Martin Fowler presented a catalogue of refactoring patterns that defines a list of code smells and their corresponding refactoring patterns. This list aimed at supporting programmers in finding suitable refactoring patterns that remove code smells from their systems. However, a recent empirical study by Bavota et al. shows that refactoring rarely removes code smells which do not align with Fowler’s catalog. To bridge the gap between them, we revisit the relationship between code smells and refactorings. In this study, we investigate whether developers apply appropriate refactoring patterns to fix code smells in three open source software systems.
+
+* shows relationship between code smells and refactoring operations
+
+Datasets: 3 projects
+
+## 18) Improving Code Maintainability: A Case Study on the Impact of Refactoring:
+It is a fact that a lot of software is written by people without a formal education in software engineering. As an example, material scientists often capture their knowledge in the form of simulation software that contains sophisticated al- gorithms representing complex physical concepts. Since software engineering is typically not a core skill of these scientists, there is a risk that their software becomes unmaintainable once it reaches a substantial size or structural complexity.
+This paper reports on a case study in which software engineers consulted magnetics researchers in refactoring their simulation software. This software had grown to 30 kloc of Java and was considered unmaintainable by the stakeholders of the research project. The case study describes the process of refactoring a system under the guidance of a software engineer with results supported by static analysis and software metrics. It shows how software engineers evaluated and selected refactorings to apply to the system using their expert judgment with input from static analysis tools and discusses the outcome of refactoring as evaluated by code owners and reported via static analysis metrics.
+
+*  shows how refactoring improves code maintainability in one case study
+
+Datasets: 1 Project
+
+## 19) Method Level Refactoring Prediction on Five Open Source Java Projects using Machine Learning Techniques:
+Introduction : Identifying code segments in large and complex systems in need of refactoring is non-trivial for software devel- opers. Our research aim is to develop recommendation systems for suggesting methods which require refactoring. Materials and Methods : Previous research shows that source code metrics for object-oriented software systems are indicators of complexity of a software system. We compute 25 different source code metrics at the method level and use it as features in a machine learning framework to predict the need of refactoring. We conduct a series of experiments on a publicly available annotated dataset of five software systems to investigate the performance of our proposed approach. In this proposed solution, ten different machine learning classifiers have been considered. In order to handle issues related to class imbalance, three different data sampling methods are also considered during implementation. Conclusion : Our analysis re- veals that the mean accuracy for the SMOTE and RUSBoost data sampling technique is 98.47% respectively. The mean accuracy for the classifier AdaBoost is 98.16% and the mean accuracy for the classifier ANN+GD is 98.17% respectively. Hypothesis testing re- sults reveals that the performance of different classifiers and data sampling techniques are statistically significant in nature.
+
+* 
