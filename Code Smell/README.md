@@ -1,0 +1,6 @@
+# Paper deatils and data desription
+
+## 1) Maintainability defects detection and correction: a multi-objective approach:
+Software defects often lead to bugs, runtime errors and software main- tenance difficulties. They should be systematically prevented, found, removed or fixed all along the software lifecycle. However, detecting and fixing these defects is still, to some extent, a difficult, time-consuming and manual process. In this pa- per, we propose a two-step automated approach to detect and then to correct var- ious types of maintainability defects in source code. Using Genetic Programming, our approach allows automatic generation of rules to detect defects, thus relieving the designer from a fastidious manual rule definition task. Then, we correct the de- tected defects while minimizing the correction effort. A correction solution is de- fined as the combination of refactoring operations that should maximize as much as possible the number of corrected defects with minimal code modification effort. We use the Non-dominated Sorting Genetic Algorithm (NSGA-II) to find the best compromise. For six open source projects, we succeeded in detecting the majority of known defects, and the proposed corrections fixed most of them with minimal effort.
+
+Datasets: 6 projects
