@@ -89,3 +89,44 @@ Code smells in a program represent indications of structural quality problems, w
 * uses various methods to identify effect of refactoring on code smells and are the refactorinf operations are performed on smelly codes.
 
 Datasets: 23 projects
+
+## 12) Accurate and Efficient Refactoring Detection in Commit History:
+Refactoring detection algorithms have been crucial to a variety of applications: (i) empirical studies about the evolution of code, tests, and faults, (ii) tools for library API migration, (iii) improving the comprehension of changes and code reviews, etc. However, recent research has questioned the accuracy of the state-of-the-art refactoring detection tools, which poses threats to the reliability of their application. Moreover, previous refactoring detection tools are very sensitive to user-provided similarity thresholds, which further reduces their practical accuracy. In addition, their requirement to build the project versions/revisions under analysis makes them inapplicable in many real-world scenarios.
+To reinvigorate a previously fruitful line of research that has sti- fled, we designed, implemented, and evaluated RMiner, a technique that overcomes the above limitations. At the heart of RMiner is an AST-based statement matching algorithm that determines refac- toring candidates without requiring user-defined thresholds. To empirically evaluate RMiner, we created the most comprehensive oracle to date that uses triangulation to create a dataset with con- siderably reduced bias, representing 3,188 refactorings from 185 open-source projects. Using this oracle, we found that RMiner has a precision of 98% and recall of 87%, which is a significant improvement over the previous state-of-the-art.
+
+* This is the refactorminer tool that we have used for identifying java refactoring
+
+Datasets: 185 Projects
+
+## 13) The Buggy Side of Code Refactoring: Understanding the Relationship between Refactorings and Bugs:
+Code refactoring is widely practiced by software developers. There is an explicit assumption that code refactoring improves the struc- tural quality of a software project, thereby also reducing its bug proneness. However, refactoring is often applied with different purposes in practice. Depending on the complexity of certain refac- torings, developers might unconsciously make the source code more susceptible to have bugs. In this paper, we present a longitudi- nal study of 5 Java open source projects, where 20,689 refactorings, and 1,033 bug reports were analyzed. We found that many bugs are introduced in the refactored code as soon as the first immedi- ate change is made on it. Furthermore, code elements affected by refactorings performed in conjunction with other changes are more prone to have bugs than those affected by pure refactorings.
+
+* This paper/poster tries to show if refactoring introduces bugs
+
+Datasets: 5 Projects
+
+## 14) Identifying refactoring opportunities in object-oriented code: A systematic literature review:
+Context: Identifying refactoring opportunities in object-oriented code is an important stage that precedes the actual refactoring process. Several techniques have been proposed in the literature to identify oppor- tunities for various refactoring activities.
+Objective: This paper provides a systematic literature review of existing studies identifying opportunities for code refactoring activities.
+Method: We performed an automatic search of the relevant digital libraries for potentially relevant stud- ies published through the end of 2013, performed pilot and author-based searches, and selected 47 pri- mary studies (PSs) based on inclusion and exclusion criteria. The PSs were analyzed based on a number of criteria, including the refactoring activities, the approaches to refactoring opportunity identification, the empirical evaluation approaches, and the data sets used.
+Results: The results indicate that research in the area of identifying refactoring opportunities is highly active. Most of the studies have been performed by academic researchers using nonindustrial data sets. Extract Class and Move Method were found to be the most frequently considered refactoring activities. The results show that researchers use six primary existing approaches to identify refactoring opportuni- ties and six approaches to empirically evaluate the identification techniques. Most of the systems used in the evaluation process were open-source, which helps to make the studies repeatable. However, a rela- tively high percentage of the data sets used in the empirical evaluations were small, which limits the gen- erality of the results.
+Conclusions: It would be beneficial to perform further studies that consider more refactoring activities, involve researchers from industry, and use large-scale and industrial-based systems.
+
+* A literature review paper for all types of refactoring papers
+
+Datasets: NA
+
+## 15) A New Design Defects Classification: Marrying Detection and Correction:
+Previous work classify design defects based on symptoms (long methods, large classes, long parameter lists, etc.), and treat separately detection and correction steps. This paper introduces a new classification of defects using correction possibilities. Thus, correcting different code fragments appending to specific defect category need, approximately, the same refactoring operations to apply. To this end, we use genetic programming to generate new form of classification rules combining detection and correction steps. We report the results of our validation using different open-source systems. Our proposal achieved high precision and recall correction scores.
+
+* classifies classes need of refactoring using rule based genetic mutation.
+
+Datasets: 6 Projects
+
+## 16) Refactoring - Improving Coupling and Cohesion of Existing Code:
+Refactorings are widely recognised as ways to improve the internal structure of object-oriented software while maintaining its external behaviour. Unfortunately, refac- torings concentrate on the treatment of symptoms (the so called code-smells), thus improvements depend a lot on the skills of the maintainer. Coupling and cohesion on the other hand are quality attributes which are generally recognized as being among the most likely quantifiable indicators for software maintainability. Therefore, this paper analyzes how refactorings manipulate coupling/cohesion character- istics, and how to identify refactoring opportunities that im- prove these characteristics. As such we provide practical guidelines for the optimal usage of refactoring in a software maintenance process.
+
+* shows the effect of different refactoring operation on cohesion and coupling
+
+Datasets: NA
+
