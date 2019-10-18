@@ -149,4 +149,6 @@ Datasets: 1 Project
 ## 19) Method Level Refactoring Prediction on Five Open Source Java Projects using Machine Learning Techniques:
 Introduction : Identifying code segments in large and complex systems in need of refactoring is non-trivial for software devel- opers. Our research aim is to develop recommendation systems for suggesting methods which require refactoring. Materials and Methods : Previous research shows that source code metrics for object-oriented software systems are indicators of complexity of a software system. We compute 25 different source code metrics at the method level and use it as features in a machine learning framework to predict the need of refactoring. We conduct a series of experiments on a publicly available annotated dataset of five software systems to investigate the performance of our proposed approach. In this proposed solution, ten different machine learning classifiers have been considered. In order to handle issues related to class imbalance, three different data sampling methods are also considered during implementation. Conclusion : Our analysis re- veals that the mean accuracy for the SMOTE and RUSBoost data sampling technique is 98.47% respectively. The mean accuracy for the classifier AdaBoost is 98.16% and the mean accuracy for the classifier ANN+GD is 98.17% respectively. Hypothesis testing re- sults reveals that the performance of different classifiers and data sampling techniques are statistically significant in nature.
 
-* 
+*  
+
+Datasets:
