@@ -94,4 +94,11 @@ Recent studies of software defect prediction typically produce datasets, methods
 
 Datasets: This paper lists previous studies with datasets and methods till 2013
 
+## 17) A Large-Scale Study of the Impact of Feature Se- lection Techniques on Defect Classification Models:
+The performance of a defect classification model depends on the features that are used to train it. Feature redun- dancy, correlation, and irrelevance can hinder the performance of a classification model. To mitigate this risk, researchers often use feature selection techniques, which transform or select a subset of the features in order to improve the performance of a classification model. Recent studies compare the impact of different feature selection techniques on the performance of defect classification models. However, these studies compare a limited number of classification techniques and have arrived at contradictory conclusions about the impact of feature selection techniques. To address this limitation, we study 30 feature selection techniques (11 filter-based ranking techniques, six filter- based subset techniques, 12 wrapper-based subset techniques, and a no feature selection configuration) and 21 classification techniques when applied to 18 datasets from the NASA and PROMISE corpora. Our results show that a correlation-based filter-subset feature selection technique with a BestFirst search method outperforms other feature selection techniques across the studied datasets (it outperforms in 70%–87% of the PROMISE– NASA data sets) and across the studied classification techniques (it outperforms for 90% of the techniques). Hence, we recommend the application of such a selection technique when building defect classification models.
+
+Datasets: 18 datasets from PROMISE
+
+
+
 
